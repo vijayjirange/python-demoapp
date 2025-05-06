@@ -1,4 +1,4 @@
 name: "CodeQL Custom Config"
 queries:
-  - uses: github/codeql/javascript-queries
-  - uses: github/codeql/python-queries
+  - uses: codeql/javascript-queries
+  - uses: codeql/python-queries
