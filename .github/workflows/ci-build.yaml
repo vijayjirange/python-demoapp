@@ -19,7 +19,7 @@ jobs:
       contents: read
     steps:
       - name: 'Checkout'
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: 'Run linting'
         run: make lint
@@ -50,7 +50,7 @@ jobs:
       actions: write
     steps:
       - name: 'Checkout'
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       # Nicer than using github runid, I think, will be picked up automatically by make
       - name: 'Create datestamp image tag'
