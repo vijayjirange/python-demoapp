@@ -9,10 +9,10 @@
 3. **GitHub Secret Scanning**: Flags hardcoded credentials like AWS access keys, passwords, and tokens.
 
 ## 📸 Screenshots Attached
-- [GHAS Overview](https://github.com/vijayjirange/python-demoapp/blob/master/GHAS.png)
-- [Dependabot Example](https://github.com/vijayjirange/python-demoapp/blob/master/dependabot.png)
-- [Code Scanning Example](https://github.com/vijayjirange/python-demoapp/blob/master/CodeScanning.png)
-- [Secret Scanning Example](https://github.com/vijayjirange/python-demoapp/blob/master/SecretScanning.png)
+- [GHAS enabled](https://github.com/vijayjirange/python-demoapp/blob/master/GHAS.png)
+- [Dependabot output](https://github.com/vijayjirange/python-demoapp/blob/master/dependabot.png)
+- [Code Scanning output](https://github.com/vijayjirange/python-demoapp/blob/master/CodeScanning.png)
+- [Secret Scanning output](https://github.com/vijayjirange/python-demoapp/blob/master/SecretScanning.png)
 
 ## 🔐 Key Benefits of GitHub Advanced Security
 1. **Code Scanning (Static Analysis)**  
