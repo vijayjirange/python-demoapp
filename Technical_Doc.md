@@ -1,4 +1,4 @@
-#### GitHub Advanced Security Technical Documentation
+# GitHub Advanced Security Technical Documentation
 
 ## Need?
   - Enabling Security in the BUILD pipelines is crucial because it helps detect vulnerabilities early in the development cycle, protect sensitive information, and ensure fast, secure delivery of software.
