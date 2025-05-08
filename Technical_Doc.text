@@ -1,0 +1,23 @@
+#### GitHub Advanced Security  Technical Documentation
+
+## Need?
+  - Enabling Security in the BUILD pipelines is crucial because it helps detect vulnerabilities early in development cycle, protect sensitive information, and ensure fast, secure delivery of software
+
+
+## 🔧Security Features/Tools enabled in GITHUB
+    1. CodeQL: Static code analysis engine that automatically finds vulnerabilities in Python code.
+    2. Dependabot: Dependency graph scanner that detects vulnerable versions in requirements.txt and Docker images.
+    3. GitHub Secret Scanning: Flags hardcoded credentials like AWS access keys, passwords, tokens.
+
+##📸 Screenshots Attached
+
+    https://github.com/vijayjirange/python-demoapp/blob/master/GHAS.png
+    https://github.com/vijayjirange/python-demoapp/blob/master/dependabot.png
+    https://github.com/vijayjirange/python-demoapp/blob/master/CodeScanning.png
+    https://github.com/vijayjirange/python-demoapp/blob/master/SecretScanning.png
+
+## Benefits of Enabling GitHub Advance security
+
+
+    
+    
