@@ -19,7 +19,7 @@ jobs:
       contents: read
     steps:
       - name: 'Checkout'
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: 'Run linting'
         run: make lint
@@ -28,8 +28,7 @@ jobs:
         run: make test-report
 
       - name: 'Upload test results'
-        uses: actions/upload-artifact@v2
-        # Disabled when running locally with the nektos/act tool
+        uses: actions/upload-artifact@v3
         if: ${{ always() && !env.ACT }}
         with:
           name: test-results
@@ -51,7 +50,7 @@ jobs:
       actions: write
     steps:
       - name: 'Checkout'
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       # Nicer than using github runid, I think, will be picked up automatically by make
       - name: 'Create datestamp image tag'
